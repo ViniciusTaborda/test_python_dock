@@ -32,7 +32,7 @@ A saída deverá estar no formato JSON seguinte:
 
 ## Implementação
 
-Foram utilizadas as seguintes bibliotecas para o desenvolvimento:
+Para o desenvolvimento do projeto foi utilizado python3.9 e as seguintes bibliotecas:
 
 ```
     re
@@ -41,12 +41,9 @@ Foram utilizadas as seguintes bibliotecas para o desenvolvimento:
     pprint
 ```
 
-```
-    python>=3.9
-```
-
 Rodando o projeto:
 
 ```
+    cd test_python_dock
     python main.py
 ```
