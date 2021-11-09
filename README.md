@@ -30,3 +30,6 @@ A saída deverá estar no formato JSON seguinte:
 | ⚠️ | Sua solução deve usar a [API pública do PyPI](https://warehouse.readthedocs.io/api-reference/json.html). |
 | --- | --- |
 
+## Implementação
+
+
