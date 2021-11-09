@@ -5,7 +5,7 @@ Enunciado do teste técnico para a vaga de Desenvolvedor(a) Python.
 ## O problema
 
 A equipe de desenvolvimento sinalizou que muitos projetos estão com versões de libs desatualizadas,
-e para verificar todos os projetos levaria bastante tempo. Os desenvolvedores tiveram uma ideia, 
+e para verificar todos os projetos levaria bastante tempo. Os desenvolvedores tiveram uma ideia,
 "que tal ler o arquivo requiments.txt e utilizar a [API pública do PyPI](https://warehouse.readthedocs.io/api-reference/json.html)"
 
 ## Solução
@@ -24,12 +24,29 @@ A saída deverá estar no formato JSON seguinte:
 }]
 ```
 
-| ⚠️ | O Arquivo requirements.txt esta no root desse projeto. |
-| --- | --- |
+| ⚠️  | O Arquivo requirements.txt esta no root desse projeto. |
+| --- | ------------------------------------------------------ |
 
-| ⚠️ | Sua solução deve usar a [API pública do PyPI](https://warehouse.readthedocs.io/api-reference/json.html). |
-| --- | --- |
+| ⚠️  | Sua solução deve usar a [API pública do PyPI](https://warehouse.readthedocs.io/api-reference/json.html). |
+| --- | -------------------------------------------------------------------------------------------------------- |
 
 ## Implementação
 
+Foram utilizadas as seguintes bibliotecas para o desenvolvimento:
 
+```
+    re
+    requests
+    pathlib
+    pprint
+```
+
+```
+    python>=3.9
+```
+
+Rodando o projeto:
+
+```
+    python main.py
+```

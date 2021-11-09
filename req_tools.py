@@ -59,6 +59,9 @@ def check_requirements_version(_file_path: str) -> list[dict]:
                 _package_name, _version = next(_parse_lines(_file))
                 response = requests.get(f"https://pypi.org/pypi/{_package_name}/json")
 
+                if not response.status_code == 200:
+                    return [dict]
+
                 _default_data.append(
                     dict(
                         packageName=_package_name,
@@ -75,5 +78,4 @@ def check_requirements_version(_file_path: str) -> list[dict]:
                     )
                 )
             except StopIteration:
-                break
-        return _default_data
+                return _default_data
